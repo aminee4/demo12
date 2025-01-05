@@ -1,0 +1,40 @@
+var _path, _g, _g2, _g3, _g4, _g5, _g6, _g7, _g8, _g9, _g10, _g11, _g12, _g13, _g14, _g15;
+
+var _excluded = ["title", "titleId"];
+
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+import * as React from "react";
+
+function SvgCart(_ref, svgRef) {
+  var title = _ref.title,
+      titleId = _ref.titleId,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    id: "Layer_1",
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    x: "0px",
+    y: "0px",
+    viewBox: "0 0 470 470",
+    style: {
+      enableBackground: "new 0 0 470 470"
+    },
+    xmlSpace: "preserve",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M323.85,131.05v-42.2C323.85,39.858,283.992,0,235,0s-88.85,39.858-88.85,88.85v42.2H72V470h326V131.05H323.85z  M293.85,131.05h-117.7v-42.2C176.15,56.4,202.55,30,235,30s58.85,26.4,58.85,58.85V131.05z"
+  })), _g || (_g = /*#__PURE__*/React.createElement("g", null)), _g2 || (_g2 = /*#__PURE__*/React.createElement("g", null)), _g3 || (_g3 = /*#__PURE__*/React.createElement("g", null)), _g4 || (_g4 = /*#__PURE__*/React.createElement("g", null)), _g5 || (_g5 = /*#__PURE__*/React.createElement("g", null)), _g6 || (_g6 = /*#__PURE__*/React.createElement("g", null)), _g7 || (_g7 = /*#__PURE__*/React.createElement("g", null)), _g8 || (_g8 = /*#__PURE__*/React.createElement("g", null)), _g9 || (_g9 = /*#__PURE__*/React.createElement("g", null)), _g10 || (_g10 = /*#__PURE__*/React.createElement("g", null)), _g11 || (_g11 = /*#__PURE__*/React.createElement("g", null)), _g12 || (_g12 = /*#__PURE__*/React.createElement("g", null)), _g13 || (_g13 = /*#__PURE__*/React.createElement("g", null)), _g14 || (_g14 = /*#__PURE__*/React.createElement("g", null)), _g15 || (_g15 = /*#__PURE__*/React.createElement("g", null)));
+}
+
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgCart);
+export default __webpack_public_path__ + "static/media/cart.0f5d6f059d1779229b82ca2dadfbc66e.svg";
+export { ForwardRef as ReactComponent };

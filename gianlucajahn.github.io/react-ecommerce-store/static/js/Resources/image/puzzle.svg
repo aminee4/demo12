@@ -1,0 +1,40 @@
+var _path, _g, _g2, _g3, _g4, _g5, _g6, _g7, _g8, _g9, _g10, _g11, _g12, _g13, _g14, _g15;
+
+var _excluded = ["title", "titleId"];
+
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+import * as React from "react";
+
+function SvgPuzzle(_ref, svgRef) {
+  var title = _ref.title,
+      titleId = _ref.titleId,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    id: "Capa_1",
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    x: "0px",
+    y: "0px",
+    viewBox: "0 0 206.185 206.185",
+    style: {
+      enableBackground: "new 0 0 206.185 206.185"
+    },
+    xmlSpace: "preserve",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M168.395,92.03c-3.313,0-6.574,0.492-9.687,1.44V51.833c0-4.142-3.357-7.5-7.5-7.5h-38.232 c1.241-3.513,1.888-7.253,1.888-11.104C114.864,14.906,99.958,0,81.635,0S48.405,14.906,48.405,33.229 c0,3.851,0.646,7.592,1.888,11.104H12.061c-4.143,0-7.5,3.358-7.5,7.5v49.721c0,2.515,1.261,4.863,3.357,6.252 c2.097,1.389,4.75,1.636,7.066,0.654c2.243-0.95,4.631-1.431,7.097-1.431c10.052,0,18.23,8.178,18.23,18.229 c0,10.051-8.178,18.229-18.23,18.229c-2.466,0-4.853-0.481-7.097-1.431c-2.316-0.982-4.97-0.735-7.066,0.654 c-2.097,1.389-3.357,3.737-3.357,6.252v49.721c0,4.142,3.357,7.5,7.5,7.5h45.687c0.007,0.001,0.015,0,0.02,0 c4.143,0,7.5-3.358,7.5-7.5c0-1.152-0.259-2.243-0.724-3.219c-0.756-2.032-1.139-4.163-1.139-6.341 c0-10.052,8.178-18.229,18.229-18.229s18.229,8.178,18.229,18.229c0,2.332-0.439,4.609-1.305,6.77 c-0.926,2.311-0.645,4.931,0.75,6.993c1.396,2.062,3.723,3.297,6.212,3.297h45.687c4.143,0,7.5-3.358,7.5-7.5v-41.636 c3.112,0.948,6.373,1.44,9.687,1.44c18.322,0,33.229-14.906,33.229-33.229S186.718,92.03,168.395,92.03z"
+  })), _g || (_g = /*#__PURE__*/React.createElement("g", null)), _g2 || (_g2 = /*#__PURE__*/React.createElement("g", null)), _g3 || (_g3 = /*#__PURE__*/React.createElement("g", null)), _g4 || (_g4 = /*#__PURE__*/React.createElement("g", null)), _g5 || (_g5 = /*#__PURE__*/React.createElement("g", null)), _g6 || (_g6 = /*#__PURE__*/React.createElement("g", null)), _g7 || (_g7 = /*#__PURE__*/React.createElement("g", null)), _g8 || (_g8 = /*#__PURE__*/React.createElement("g", null)), _g9 || (_g9 = /*#__PURE__*/React.createElement("g", null)), _g10 || (_g10 = /*#__PURE__*/React.createElement("g", null)), _g11 || (_g11 = /*#__PURE__*/React.createElement("g", null)), _g12 || (_g12 = /*#__PURE__*/React.createElement("g", null)), _g13 || (_g13 = /*#__PURE__*/React.createElement("g", null)), _g14 || (_g14 = /*#__PURE__*/React.createElement("g", null)), _g15 || (_g15 = /*#__PURE__*/React.createElement("g", null)));
+}
+
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgPuzzle);
+export default __webpack_public_path__ + "static/media/puzzle.94b6ae9d93fd48fcc2d09b68bfd521d7.svg";
+export { ForwardRef as ReactComponent };

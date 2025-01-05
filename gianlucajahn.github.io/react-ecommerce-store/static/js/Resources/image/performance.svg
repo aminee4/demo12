@@ -1,0 +1,42 @@
+var _g, _g2, _g3, _g4, _g5, _g6, _g7, _g8, _g9, _g10, _g11, _g12, _g13, _g14, _g15, _g16, _g17;
+
+var _excluded = ["title", "titleId"];
+
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+import * as React from "react";
+
+function SvgPerformance(_ref, svgRef) {
+  var title = _ref.title,
+      titleId = _ref.titleId,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    id: "Layer_1",
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    x: "0px",
+    y: "0px",
+    viewBox: "0 0 512 512",
+    style: {
+      enableBackground: "new 0 0 512 512"
+    },
+    xmlSpace: "preserve",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _g || (_g = /*#__PURE__*/React.createElement("g", null, /*#__PURE__*/React.createElement("g", null, /*#__PURE__*/React.createElement("path", {
+    d: "M511.78,294.907c0-0.008,0.002-0.016,0.002-0.023c0-0.053-0.008-0.104-0.008-0.16 c-5.444-136.384-118.077-245.67-255.775-245.672c-0.002,0-0.002,0-0.002,0c-0.019,0-0.037,0-0.056,0 c-0.006,0-0.011,0.002-0.017,0.002C114.801,49.094,0,163.92,0,305.057c0,53.281,16.396,104.496,47.414,148.108 c7.45,10.471,21.98,12.923,32.455,5.475c10.474-7.45,12.926-21.98,5.475-32.455c-22.826-32.093-35.939-69.204-38.357-108.029 h46.178c12.853,0,23.273-10.42,23.273-23.273c0-12.853-10.42-23.273-23.273-23.273H49.227 c6.267-38.884,23.268-74.217,47.864-102.855l27.344,27.341c4.544,4.544,10.499,6.816,16.455,6.816 c5.956,0,11.914-2.273,16.457-6.819c9.087-9.087,9.087-23.823-0.002-32.912l-26.202-26.199 c29.032-21.625,63.834-35.904,101.638-40.093l0.082,35.078c0.031,12.834,10.443,23.218,23.271,23.218c0.019,0,0.037,0,0.056,0 c12.853-0.031,23.248-10.474,23.218-23.327l-0.082-34.956c37.824,4.212,72.642,18.525,101.675,40.187L354.9,163.189 c-9.089,9.087-9.09,23.822-0.003,32.912c4.544,4.546,10.501,6.819,16.457,6.819c5.955,0,11.911-2.271,16.454-6.816l27.215-27.21 c24.534,28.613,41.491,63.896,47.748,102.715h-43.684c-12.853,0-23.273,10.42-23.273,23.273c0,12.853,10.42,23.273,23.273,23.273 h45.923c-2.416,38.838-15.531,75.948-38.36,108.023c-7.453,10.473-5.007,25.003,5.466,32.456 c4.093,2.914,8.806,4.313,13.475,4.313c7.275,0,14.442-3.401,18.98-9.779C495.6,409.576,512,358.359,512,305.058 C512,301.656,511.913,298.275,511.78,294.907z"
+  })))), _g2 || (_g2 = /*#__PURE__*/React.createElement("g", null, /*#__PURE__*/React.createElement("g", null, /*#__PURE__*/React.createElement("path", {
+    d: "M329.128,232.837c-10.066-7.989-24.706-6.31-32.698,3.756l-37.536,47.281c-0.352-0.009-0.701-0.026-1.055-0.026 c-21.388,0-38.789,17.399-38.794,38.794c0.005,21.385,17.406,38.782,38.794,38.782c10.359,0,20.1-4.034,27.425-11.357 c7.326-7.326,11.36-17.07,11.359-27.426c0.002-3.367-0.433-6.667-1.26-9.843l37.522-47.262 C340.877,255.469,339.195,240.829,329.128,232.837z"
+  })))), _g3 || (_g3 = /*#__PURE__*/React.createElement("g", null)), _g4 || (_g4 = /*#__PURE__*/React.createElement("g", null)), _g5 || (_g5 = /*#__PURE__*/React.createElement("g", null)), _g6 || (_g6 = /*#__PURE__*/React.createElement("g", null)), _g7 || (_g7 = /*#__PURE__*/React.createElement("g", null)), _g8 || (_g8 = /*#__PURE__*/React.createElement("g", null)), _g9 || (_g9 = /*#__PURE__*/React.createElement("g", null)), _g10 || (_g10 = /*#__PURE__*/React.createElement("g", null)), _g11 || (_g11 = /*#__PURE__*/React.createElement("g", null)), _g12 || (_g12 = /*#__PURE__*/React.createElement("g", null)), _g13 || (_g13 = /*#__PURE__*/React.createElement("g", null)), _g14 || (_g14 = /*#__PURE__*/React.createElement("g", null)), _g15 || (_g15 = /*#__PURE__*/React.createElement("g", null)), _g16 || (_g16 = /*#__PURE__*/React.createElement("g", null)), _g17 || (_g17 = /*#__PURE__*/React.createElement("g", null)));
+}
+
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgPerformance);
+export default __webpack_public_path__ + "static/media/performance.2e24702ef961ae8ea37dc17a2b5c4efb.svg";
+export { ForwardRef as ReactComponent };

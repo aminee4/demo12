@@ -1,0 +1,51 @@
+var _defs, _circle, _path, _path2, _rect;
+
+var _excluded = ["title", "titleId"];
+
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+import * as React from "react";
+
+function SvgNotfoundquery(_ref, svgRef) {
+  var title = _ref.title,
+      titleId = _ref.titleId,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: "32px",
+    height: "32px",
+    viewBox: "0 0 32 32",
+    id: "Layer_1",
+    "data-name": "Layer 1",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("style", null, "\n      .cls-1 {\n        fill: none;\n      }\n    "))), _circle || (_circle = /*#__PURE__*/React.createElement("circle", {
+    cx: 11,
+    cy: 15.5,
+    r: 1.5
+  })), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M12,12H10V8h2a2,2,0,0,0,0-4H10A2.0023,2.0023,0,0,0,8,6v.5H6V6a4.0045,4.0045,0,0,1,4-4h2a4,4,0,0,1,0,8Z",
+    transform: "translate(0 0)"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M22.4479,21.0337A10.971,10.971,0,0,0,19.9211,4.7446l-.999,1.73A8.9967,8.9967,0,1,1,5,14H3a10.9916,10.9916,0,0,0,18.0338,8.4478L28.5859,30,30,28.5859Z",
+    transform: "translate(0 0)"
+  })), _rect || (_rect = /*#__PURE__*/React.createElement("rect", {
+    id: "_Transparent_Rectangle_",
+    "data-name": "<Transparent Rectangle>",
+    className: "cls-1",
+    width: 32,
+    height: 32,
+    transform: "translate(32 32) rotate(-180)"
+  })));
+}
+
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgNotfoundquery);
+export default __webpack_public_path__ + "static/media/notfoundquery.090fb2210a8d80c2a680a95da9f154a4.svg";
+export { ForwardRef as ReactComponent };
